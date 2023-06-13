@@ -23,9 +23,9 @@ export const NavBar = () => {
             </div>
 
 
-            <ul className=" hidden md:flex">
+            <ul className=" hidden md:flex text-gray-300 dark:text-[#000]">
                 <li>
-                    <BsFillMoonStarsFill className="color-[#0a192f] dark:fill-[#000]" onClick={() => setDarkMode(!darkMode)} size={30} />
+                    <BsFillMoonStarsFill className="color-[#0a192f] dark:fill-[#0a192f]" onClick={() => setDarkMode(!darkMode)} size={30} />
                 </li>
                 <li>
                     <Link to="home" className="hover:text-pink-600 hover:underline" smooth={true} duration={500}>
@@ -54,11 +54,11 @@ export const NavBar = () => {
                 </li>
             </ul>
 
-            <div onClick={handleClick} className="md:hidden z-10">
+            <div onClick={handleClick} className="md:hidden z-10 text-gray-300 dark:text-[#000]">
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
 
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] dark:bg-[#fff] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] dark:bg-[#fff] text-gray-300 dark:text-[#000] flex flex-col justify-center items-center'}>
                 <li>
                     <BsFillMoonStarsFill className="color-[#0a192f] dark:fill-[#000]" onClick={() => setDarkMode(!darkMode)} size={30} />
                 </li>
