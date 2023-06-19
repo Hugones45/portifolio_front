@@ -1,6 +1,4 @@
 import { GiVintageRobot } from "react-icons/gi"
-import { GiMonoWheelRobot } from "react-icons/gi"
-
 import { motion } from "framer-motion"
 
 export const About = () => {
@@ -26,8 +24,10 @@ export const About = () => {
                         <p>Hi I'm Hugo nice to meet you. Plesase take a look around.</p>
                     </div>
                     <div>
-                        <p>Formado em cinema e atualmente cursando analise e desenvolvimento de sistemas atuei durante muitas tempo no mercado usando varias tecnologias voltadas para o audiovisual, em especial os softwares de edição, com o tempo passei a me interessar em como toda a tecnologia que eu usava era construída, inventada, e esse interesse me levou até a programação.</p>
-                        <p>Na programação descobri um mundo de infinitas possibilidades e em especial com o front-end vi como é possível trabalhar com vários processos criativos que tanto amo de uma maneira digital, posso digitalizar jogos de tabuleiro físicos que já criei ou dar vida para as histórias fantásticas contando elas de maneiras interativas através de sites e aplicações.</p>
+                        <p>I graduated in cinema and I am currently studying analysis and systems development. I have worked in the market for a long time using various technologies focused on audiovisual, especially editing software. Over time, I became interested in how all the technology I used was built, and this interest led me to programming.</p>
+                        <p>In this new world, I discovered infinite possibilities, especially in front-end development. I saw how it is possible to work digitally with various creative processes that I love so much. Today, I work on building web applications using JavaScript, Node.js, and primarily React.js. My mastery of the libraries and frameworks in the React ecosystem allows me to develop modern and intuitive user interfaces.</p>
+                        <p>As you browse through my portfolio, you will find projects I have worked on, from small games to blogs and web pages created to spread ecological awareness with the help of technology.</p>
+                        <p>I am constantly updating my skills to stay up-to-date with the latest trends and advancements in the technology field, in order to provide innovative solutions. I enjoy collaborating on exciting projects that provide new challenges and stimulate creativity. If you are looking for a front-end developer with expertise in JavaScript and React, I am here to help. Feel free to explore my portfolio and get in touch to discuss your ideas. Together, we can turn your visions into reality!</p>
                     </div>
                 </div>
 
