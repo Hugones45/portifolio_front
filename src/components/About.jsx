@@ -31,6 +31,25 @@ export const About = () => {
                     </div>
                 </div>
 
+                <motion.div
+                    className="relative  right-80 bottom-40"
+                    animate={{ rotate: [0, 360, 360, 0] }}
+                    transition={{ repeat: Infinity, duration: 5 }}
+                >
+
+                    <GiVintageRobot size={80} />
+                </motion.div>
+
+
+                <motion.div
+                    className="relative  right-20 bottom-40"
+                    animate={{ rotate: [0, 360, 360, 0] }}
+                    transition={{ repeat: Infinity, duration: 5 }}
+                >
+
+                    <GiVintageRobot size={80} />
+                </motion.div>
+
 
             </div>
 
