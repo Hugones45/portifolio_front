@@ -42,7 +42,7 @@ export const About = () => {
 
 
                 <motion.div
-                    className="relative  right-20 bottom-40"
+                    className="relative  right-30"
                     animate={{ rotate: [0, 360, 360, 0] }}
                     transition={{ repeat: Infinity, duration: 5 }}
                 >
