@@ -1,5 +1,5 @@
-import {GiVintageRobot} from "react-icons/gi"
-import {GiMonoWheelRobot} from "react-icons/gi"
+import { GiVintageRobot } from "react-icons/gi"
+import { GiMonoWheelRobot } from "react-icons/gi"
 
 import { motion } from "framer-motion"
 
@@ -20,7 +20,7 @@ export const About = () => {
                     <div></div>
                 </div>
 
-                
+
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold '>
                         <p>Hi I'm Hugo nice to meet you. Plesase take a look around.</p>
@@ -30,17 +30,19 @@ export const About = () => {
                         <p>Na programação descobri um mundo de infinitas possibilidades e em especial com o front-end vi como é possível trabalhar com vários processos criativos que tanto amo de uma maneira digital, posso digitalizar jogos de tabuleiro físicos que já criei ou dar vida para as histórias fantásticas contando elas de maneiras interativas através de sites e aplicações.</p>
                     </div>
                 </div>
+                <div className="position: relative w-full h-screen">
 
-                <motion.div
-                 className="relative m-5 right-20"
-               animate={{rotate: [0, 360, 360, 0]}}
-            transition={{repeat: Infinity, duration:5}}
-                >
 
-                    <GiVintageRobot size={80}/>                    
-                </motion.div>
+                    <motion.div
+                        className="absolute m-5 left-10"
+                        animate={{ rotate: [0, 360, 360, 0] }}
+                        transition={{ repeat: Infinity, duration: 5 }}
+                    >
 
-               
+                        <GiVintageRobot size={80} />
+                    </motion.div>
+                </div>
+
             </div>
 
         </div>
