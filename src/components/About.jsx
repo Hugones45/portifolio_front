@@ -32,7 +32,7 @@ export const About = () => {
                 </div>
 
                 <motion.div
-                    className="hidden xl:flex relative right-80 bottom-40"
+                    className="hidden lg:flex relative right-80 bottom-40"
                     animate={{ rotate: [0, 360, 360, 0] }}
                     transition={{ repeat: Infinity, duration: 5 }}
                 >
