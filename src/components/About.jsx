@@ -34,7 +34,7 @@ export const About = () => {
 
 
                     <motion.div
-                        className="absolute m-5 left-10"
+                        className="absolute m-5 left-80"
                         animate={{ rotate: [0, 360, 360, 0] }}
                         transition={{ repeat: Infinity, duration: 5 }}
                     >
