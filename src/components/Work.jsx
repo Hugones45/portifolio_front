@@ -1,6 +1,13 @@
 import workImg from "../assets/projects/workImg.jpeg"
+import meliBee from "../assets/projects/beemli.jpeg"
+import blogImg from "../assets/projects/blogImg.jpg"
+import moviesLib from "../assets/projects/movieslib.jpg"
+import secretGame from "../assets/projects/sercretWord.jpg"
+import pokeDex from "../assets/projects/66a6a4d3-pokedex_kanto.png"
+import gitHub from "../assets/projects/githubb.jpg"
 
 export const Work = () => {
+
     return (
 
         <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f] dark:bg-[#fff]'>
@@ -13,7 +20,7 @@ export const Work = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     <div
-                        style={{ backgroundImage: `url(${workImg})` }}
+                        style={{ backgroundImage: `url(${blogImg})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className="opacity-0 group-hover:opacity-100">
@@ -31,7 +38,7 @@ export const Work = () => {
                     </div>
 
                     <div
-                        style={{ backgroundImage: `url(${workImg})` }}
+                        style={{ backgroundImage: `url(${moviesLib})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className="opacity-0 group-hover:opacity-100">
@@ -49,73 +56,73 @@ export const Work = () => {
                     </div>
 
                     <div
-                        style={{ backgroundImage: `url(${workImg})` }}
+                        style={{ backgroundImage: `url(${meliBee})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className="opacity-0 group-hover:opacity-100">
 
                             <span className="text-2xl font-bold text-white tracking-wider">
-                                React JS Application
+                                Meliponas Web Page
                             </span>
 
                             <div className="pt-8 text-center">
-                                <a href="/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
+                                <a href="https://meliponas-web.vercel.app/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
 
-                                <a href="/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
+                                <a href="https://github.com/Hugones45/meliponas_web"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
                             </div>
                         </div>
                     </div>
 
                     <div
-                        style={{ backgroundImage: `url(${workImg})` }}
+                        style={{ backgroundImage: `url(${secretGame})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className="opacity-0 group-hover:opacity-100">
 
                             <span className="text-2xl font-bold text-white tracking-wider">
-                                React JS Application
+                                Secret Word Game
                             </span>
 
                             <div className="pt-8 text-center">
-                                <a href="/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
+                                <a href="https://secret-word-game-seven.vercel.app/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
 
-                                <a href="/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
+                                <a href="https://github.com/Hugones45/Secret_Word_Game"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
                             </div>
                         </div>
                     </div>
 
                     <div
-                        style={{ backgroundImage: `url(${workImg})` }}
+                        style={{ backgroundImage: `url(${gitHub})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className="opacity-0 group-hover:opacity-100">
 
                             <span className="text-2xl font-bold text-white tracking-wider">
-                                React JS Application
+                                GitHub User Finder
                             </span>
 
                             <div className="pt-8 text-center">
-                                <a href="/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
+                                <a href="https://buscador-de-usuarios-github.vercel.app/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
 
-                                <a href="/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
+                                <a href="https://github.com/Hugones45/GitHub_Finder"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
                             </div>
                         </div>
                     </div>
 
                     <div
-                        style={{ backgroundImage: `url(${workImg})` }}
+                        style={{ backgroundImage: `url(${pokeDex})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className="opacity-0 group-hover:opacity-100">
 
                             <span className="text-2xl font-bold text-white tracking-wider">
-                                React JS Application
+                                Pokedex Old_and_New
                             </span>
 
                             <div className="pt-8 text-center">
-                                <a href="/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
+                                <a href="https://poke-old-new.vercel.app/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
 
-                                <a href="/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
+                                <a href="https://github.com/Hugones45/Poke_oldNew"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
                             </div>
                         </div>
                     </div>
