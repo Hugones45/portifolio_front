@@ -6,8 +6,6 @@ export const About = () => {
     return (
         <div name='about' className='w-full h-screen bg-[#0a192f] dark:bg-[#fff] text-[#858a9d] dark:text-[#000]'>
 
-
-
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
 
@@ -17,7 +15,6 @@ export const About = () => {
                     </div>
                     <div></div>
                 </div>
-
 
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold '>

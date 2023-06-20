@@ -1,6 +1,6 @@
 import { HiArrowNarrowRight } from "react-icons/hi"
 import { Link } from "react-scroll"
-import mySelf from "../assets/me/job1.png"
+import mySelf from "../assets/me/m.png"
 import Typewriter from "typewriter-effect"
 
 export const Home = () => {
@@ -43,7 +43,7 @@ export const Home = () => {
 
             <div className="relative right-20 justify-center items-center hidden 2xl:flex">
 
-                <img className="relative max-w-[350px] p-4 rounded-lg" src={mySelf} alt="me" />
+                <img className="relative max-w-[350px] p-4 right-12 rounded-[35px] border-2 border-rose-600" src={mySelf} alt="me" />
 
             </div>
         </div>

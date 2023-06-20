@@ -11,7 +11,6 @@ import { DarkModeContext } from "../context/DarkModeContext"
 export const NavBar = () => {
     const { darkMode, setDarkMode } = useContext(DarkModeContext)
 
-
     const [nav, setNav] = useState(false)
 
     const handleClick = () => setNav(!nav)
@@ -83,14 +82,14 @@ export const NavBar = () => {
             <div className="hidden xl:flex fixed flex-col top-[35%] left-0">
                 <ul>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-                        <a 
+                        <a
                             className="flex justify-between items-center w-full text-gray"
                             href="https://www.linkedin.com/in/hugo-alex/">
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-                        <a 
+                        <a
                             className="flex justify-between items-center w-full text-gray"
                             href="https://github.com/Hugones45">
                             GitHub <FaGithub size={30} />
@@ -106,10 +105,8 @@ export const NavBar = () => {
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
                         <a
-                            target="_blank"
                             className="flex justify-between items-center w-full text-gray"
-                            href="/">
-                            Resume <BsFillPersonLinesFill size={30} />
+                            href="/resume/hugo_resume.pdf" download> Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>
