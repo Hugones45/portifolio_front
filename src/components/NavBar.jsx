@@ -106,7 +106,7 @@ export const NavBar = () => {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
                         <a
                             className="flex justify-between items-center w-full text-gray"
-                            href="/resume/hugo_resume.pdf" download> Resume <BsFillPersonLinesFill size={30} />
+                            href="/resume/resume_hugo_english.pdf" download> Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>
