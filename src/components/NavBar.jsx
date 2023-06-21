@@ -77,6 +77,10 @@ export const NavBar = () => {
                     <Link onClick={handleClick} className="hover:text-pink-600 hover:underline" to="work" smooth={true} duration={500}>
                         Work
                     </Link></li>
+                    <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} className="hover:text-pink-600 hover:underline" to="contact" smooth={true} duration={500}>
+                        Contact
+                    </Link></li>
             </ul>
 
             <div className="hidden xl:flex fixed flex-col top-[35%] left-0">
