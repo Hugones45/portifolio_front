@@ -1,4 +1,3 @@
-import workImg from "../assets/projects/workImg.jpeg"
 import meliBee from "../assets/projects/beemli.jpeg"
 import blogImg from "../assets/projects/blogImg.jpg"
 import moviesLib from "../assets/projects/movieslib.jpg"
