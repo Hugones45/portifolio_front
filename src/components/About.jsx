@@ -6,7 +6,7 @@ export const About = () => {
     return (
         <div name='about' className='w-full lg:px-60 h-full pt-20 bg-[#0a192f] dark:bg-[#fff] text-[#858a9d] dark:text-[#000]'>
 
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full items-center'>
+            <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full items-center'>
             
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
 
