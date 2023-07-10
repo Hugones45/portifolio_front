@@ -16,16 +16,17 @@ export const About = () => {
                     <div></div>
                 </div>
 
-                <div className='max-w-[1000px]w-full grid md:grid-cols-2 gap-8 px-4'>
+               <div className='max-w-[1000px]w-full grid md:grid-cols-2 text-justify gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold '>
-                        <p>Hi I'm Hugo nice to meet you. Plesase take a look around.</p>
+                        <p>Hi I'm Hugo nice to meet you. Plesase take a look around!</p>
                     </div>
                     <div>
-                        <p>I graduated in cinema, and I am currently studying analysis and systems development. I have worked in the market for a long time, using various technologies focused on audiovisual, especially editing software. Over time, I became interested in understanding how all the technology I used was built, which eventually led me to programming.</p>
-                        <p>In this new world, I discovered infinite possibilities, especially in front-end development. I saw how it is possible to work digitally with various creative processes that I love so much, whether it's developing small games, creating blogs, or designing web pages to spread ecological awareness with the help of technology.</p>
-                        <p>My main tools are JavaScript and React.js, and my mastery of their libraries and frameworks within their ecosystems allows me to create modern and intuitive applications. Additionally, I also work with Node.js and Python. I constantly update my skills to stay up-to-date with the latest trends and advancements in the technology field, enabling me to provide innovative solutions.</p>
-                        <p>I enjoy collaborating on exciting projects that provide new challenges and stimulate creativity. If you are looking for a front-end developer with expertise in JavaScript and React, I am here to help! Let's work together to bring your ideas to life!</p>
+                        <p>Having graduated in cinema and currently pursuing studies in Analysis and Systems Development, I discovered in programming a world of infinite possibilities to learn, protect, and create!</p>
+                        <p>JavaScript and React.js serve as my primary tools, and my expertise in their libraries and frameworks, nestled within their respective ecosystems, empowers me to fashion contemporary and user-friendly applications. In addition, I proficiently work with Node.js and Python. To ensure that I remain abreast of the latest trends and advancements in the technology domain, I diligently update my skills, enabling me to offer innovative solutions.</p>
+                        <p>I also believe that technology should be in harmony with nature, so I use programming to build applications with ecological themes that present me with new challenges and stimulate my creativity. This practice motivates me, and that motivation becomes inspiration, inspiration which I cultivate in the creation of any application! </p>
+                        <p>If you seek a front-end developer well-versed in JavaScript and React, I am here to help! Let's work together to bring your ideas to life! </p>
                     </div>
+
                 </div>
 
                 <motion.div
