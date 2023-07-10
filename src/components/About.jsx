@@ -6,7 +6,8 @@ export const About = () => {
     return (
         <div name='about' className='w-full lg:px-60 h-full pt-20 bg-[#0a192f] dark:bg-[#fff] text-[#858a9d] dark:text-[#000]'>
 
-            <div className='flex flex-col justify-center items-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full items-center'>
+            
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
 
                     <div className='sm:text-right pb-8 pl-4'>
@@ -16,8 +17,8 @@ export const About = () => {
                     <div></div>
                 </div>
 
-               <div className='max-w-[1000px]w-full grid md:grid-cols-2 text-justify gap-8 px-20 mb-10'>
-                    <div className='sm:text-right text-4xl font-bold'>
+               <div className='max-w-[1000px]w-full grid md:grid-cols-2 text-justify gap-8 px-4'>
+                    <div className='sm:text-right text-4xl font-bold '>
                         <p>Hi I'm Hugo nice to meet you. Plesase take a look around!</p>
                     </div>
                     <div>
