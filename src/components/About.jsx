@@ -16,8 +16,8 @@ export const About = () => {
                     <div></div>
                 </div>
 
-               <div className='max-w-[1000px]w-full grid md:grid-cols-2 text-justify gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold '>
+               <div className='max-w-[1000px]w-full grid md:grid-cols-2 text-justify gap-8 px-20 mb-10'>
+                    <div className='sm:text-right text-4xl font-bold'>
                         <p>Hi I'm Hugo nice to meet you. Plesase take a look around!</p>
                     </div>
                     <div>
