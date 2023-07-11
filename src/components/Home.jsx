@@ -24,9 +24,9 @@ export const Home = () => {
                 />
                 </h2>
 
-                <p className="text-[#858a9d] dark:text-[#000] py-4 max-w-[700px]">An enthusiast for technologies and processes of creation, with
-                    Front-end tools i can have the best of these two aspects. Experienced in the field working with customer solutions, company
-                    business rules and web page development.</p>
+                <p className="text-[#858a9d] dark:text-[#000] py-4 max-w-[700px]">Experienced in the field working with web development, customer solutions and company
+                    business rules. Creator of puzzle games, commercial applications and pages dedicated to spreading knowledge!</p>  
+
                 <div>
                     <button>
                         <Link to="work" smooth={true} duration={500}
