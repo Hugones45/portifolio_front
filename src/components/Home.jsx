@@ -41,7 +41,7 @@ export const Home = () => {
 
             </div>
 
-            <div className="relative right-20 justify-center items-center hidden 2xl:flex">
+            <div className="relative right-40 justify-center items-center hidden 2xl:flex">
 
                 <img className="relative max-w-[350px] p-4 right-12 rounded-[35px] border-2 border-rose-600" src={mySelf} alt="me" />
 
