@@ -1,8 +1,9 @@
+import workImg from "../assets/projects/workImg.jpeg"
 import meliBee from "../assets/projects/beemli.jpeg"
 import blogImg from "../assets/projects/blogImg.jpg"
 import moviesLib from "../assets/projects/movieslib.jpg"
 import secretGame from "../assets/projects/sercretWord.jpg"
-import pokeDex from "../assets/projects/66a6a4d3-pokedex_kanto.png"
+import bird from "../assets/projects/birds.jpg"
 import gitHub from "../assets/projects/githubb.jpg"
 
 export const Work = () => {
@@ -73,6 +74,26 @@ export const Work = () => {
                     </div>
 
                     <div
+                        style={{ backgroundImage: `url(${bird})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                        <div className="opacity-0 group-hover:opacity-100">
+
+                            <span className="text-2xl font-bold text-white tracking-wider">
+                                Pokedex Old_and_New
+                            </span>
+
+                            <div className="pt-8 text-center">
+                                <a href="https://poke-old-new.vercel.app/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
+
+                                <a href="https://github.com/Hugones45/Poke_oldNew"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div
                         style={{ backgroundImage: `url(${secretGame})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
@@ -107,28 +128,13 @@ export const Work = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div
-                        style={{ backgroundImage: `url(${pokeDex})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                        <div className="opacity-0 group-hover:opacity-100">
-
-                            <span className="text-2xl font-bold text-white tracking-wider">
-                                Pokedex Old_and_New
-                            </span>
-
-                            <div className="pt-8 text-center">
-                                <a href="https://poke-old-new.vercel.app/"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button></a>
-
-                                <a href="https://github.com/Hugones45/Poke_oldNew"> <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button></a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
+
+    )
+}
+
 
     )
 }
